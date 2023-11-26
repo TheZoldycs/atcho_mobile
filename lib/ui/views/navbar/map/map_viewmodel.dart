@@ -28,8 +28,8 @@ class MapViewModel extends BaseViewModel {
   }
 
   CameraPosition kGooglePlex = const CameraPosition(
-    // target: LatLng(47.5166493182103, 18.991115768181448),
-    target: LatLng(36.2037100133405, 5.450100291943157),
+    target: LatLng(47.5166493182103, 18.991115768181448),
+    // target: LatLng(36.2037100133405, 5.450100291943157),
     zoom: 13.4746,
   );
 
@@ -48,7 +48,6 @@ class MapViewModel extends BaseViewModel {
     const LatLng(47.49796748082463, 19.039972673205664),
     const LatLng(47.498013586267824, 19.04032525727113),
     const LatLng(47.49760961338886, 19.0402586400053),
-    const LatLng(36.20365492051447, 5.450047663103397),
   ];
 
   Future<Position> _determinePosition() async {
